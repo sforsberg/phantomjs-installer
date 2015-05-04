@@ -194,7 +194,8 @@ class Installer
         }
 
         if ($os === 'macosx') {
-            $url = 'https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-' . $version . '-macosx.zip';
+            $url = 'https://github.com/eugene1g/phantomjs/releases/download/' . $version . '-bin/phantomjs-' . $version . '-macosx.zip';
+            //$url = 'https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-' . $version . '-macosx.zip';
         }
 
         # OS unknown
