@@ -34,7 +34,7 @@ class Installer
         $version = self::getVersion($composer);
 
         $url = self::getURL($version);
-
+        var_dump($url);
         $binDir = $composer->getConfig()->get('bin-dir');
 
         // the installation folder depends on the vendor-dir (default prefix is './vendor')
